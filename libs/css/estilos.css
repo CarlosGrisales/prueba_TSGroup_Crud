@@ -1,7 +1,21 @@
-body{
-    width: 715px;
-    margin: 0 auto;
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
+
+:root{
+
+    --main-color: #014f63;   
+}
+
+html{
+    font-size: 90.5%;
+    font-family:'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+
+
 
 h1{
     text-align: center;
@@ -14,3 +28,216 @@ img{
     width: 40px;
     height: 20px;
 }
+
+li{
+    padding-left: 3rem;
+    
+}
+
+.navbar-brand{
+    font-size: 2rem;
+    border-radius: 0.5rem;
+    font-weight: bold;
+}
+
+header{
+    position: sticky;
+    top:0;
+}
+
+/*footer*/
+
+
+.article_footer{
+    display: flex;
+    display: inline-flex;
+    margin-top: 0.5rem;
+    margin-bottom: 1rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    justify-content: center; 
+}
+
+li{
+    list-style: none;
+    margin-top: 0rem;
+}
+
+.title_footer {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: var(--main-color);
+}
+
+.row{
+    display: flex;
+    display: inline-block;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    width: 70%;
+    justify-content: center; 
+
+}
+
+.tablas{
+    display: flex;
+    display: inline;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    width: 70%;
+    justify-content: center; 
+
+}
+
+a{
+    text-decoration: none;
+    color: black;
+    font-size: 1rem;
+
+}
+
+.footer_universidad{
+    margin-top: 0rem;
+    margin-bottom:0rem;
+    font-size: 1rem;
+    margin-left: 3rem;
+    color: var(--main-color);
+}
+
+
+
+/*footer*//*footer*//*footer*//*footer*//*footer*//*footer*//*footer*//*footer*/
+
+/*estilos y colores de secciones*/
+.c1{
+    align-items:center;
+    text-align: center;
+    justify-content: center;
+    color: whitesmoke;
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    min-height: 100vh;
+} 
+
+.c1{
+    background-color: var(--main-color);
+}
+
+.uni{
+    width: 30rem;
+    height: 30rem;
+    margin-bottom: 4rem;
+}
+
+.unifin{
+    width: 80%;
+    height: 50%;
+    margin-bottom: 4rem;
+}
+
+
+
+.section_title{
+    font-size: 4rem;
+    font-weight: bold;
+    margin-top: 10rem;
+    margin-bottom: 4rem;
+    margin-left: 10rem;
+    margin-right: 10rem;
+}
+
+
+/*articulos*/
+
+
+
+.card_title{
+    font-size: 3rem;
+    font-weight: bold;
+    margin-top: 5rem;
+    margin-bottom: 1rem;
+    margin-left: 3rem;
+    margin-right: 3rem;
+}
+
+.card_title_convocatoria{
+    font-size: 3.5rem;
+    font-weight: bold;
+    margin-top: 1rem;
+    margin-bottom: 5rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+  
+  }
+
+.card_parrafo{
+    font-size: 2.5rem;
+    margin-bottom: 5rem;
+    margin-top: 4rem;
+    margin-left: 3rem;
+    margin-right: 3rem;
+}
+
+
+
+.card2{
+    margin-top: 1rem;
+    width: 40%;
+    display: flex;
+    display: inline-block;
+    
+
+}
+
+.span_c1{
+    margin-top: 1rem;
+}
+
+
+
+.card3{
+    margin-top: 2rem;
+    width: 40%;
+    display: flex;
+    display: inline-block;
+
+}
+
+
+.apoyo{
+    width: 100%;
+    display: flex;
+    display: inline-flex;
+    justify-content: center;
+}
+
+
+.logo_footer{
+    border-radius: 3rem;
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+    margin-left: 3rem;
+    margin-right: 1rem;
+    display:flex;
+    display: inline-flex;
+    width: 80%;
+    height: 80%;
+}
+
+.article_footer{
+    display: flex;
+    width: 25%;
+    flex-wrap: wrap;
+    display: inline-flex;
+    font-size: 1rem;
+    margin-top: 1rem;
+    margin-left: 3rem;
+    margin-right: 3rem;
+
+}
+
