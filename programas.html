@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -10,6 +11,7 @@
 </head>
 <script type="text/javascript" src="libs/js/jquery.js"></script>
 <script type="text/javascript" src="libs/js/programas.js"></script>
+
 <body>
     <header>
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
@@ -31,59 +33,66 @@
         <section class="c1" id="inicio">
             <section class="c1">
                 <h3 class="section_title">Gestión de programas</h3>
- <div class = "container">
-    <div class="row">
-        <form>
-            <fieldset>
-                <legend>Nombre del Programa</legend>
-                <input type="text"  class="form-control" id="programa">
-                <br/>
-                <legend>Descripcion del programa</legend>
-                <input type="text"  class="form-control" id="descripcion">
-                <br/>
-                <legend>Fecha Programa</legend>
-                <input type="date"  class="form-control" id="creacion">
-                <br/>
-                
-                <button type="button" id="crearpro" class="btn btn-success">Crear Tabla</button>
-                <button type="button" id="insertarpro" class="btn btn-success">Insertar registro</button>
-                <button type="button" id="modificarpro" class="btn btn-danger">Modifica Registro</button>
-                <button type="button" id="listarpro" class="btn btn-success">Mostrar/actualizar</button>
-                <button type="button" id="borrarTodopro" class="btn btn-danger">Eliminar Todo</button>
-            </fieldset>
-        </form>
-        <hr>
-        <div class ="tablas">
-        <h3>Lista de programas</h3>
-        <table class="table table-border table-hover" id="listaprograma" style="width:715px"></table>
-       </div>
-    </div>
+                <div class="container">
+                    <div class="row">
+                        <form>
+                            <fieldset>
+                                <legend>Nombre del Programa</legend>
+                                <input type="text" class="form-control" id="programa">
+                                <br />
+                                <legend>Descripcion del programa</legend>
+                                <input type="text" class="form-control" id="descripcion">
+                                <br />
+                                <legend>Fecha Programa</legend>
+                                <input type="date" class="form-control" id="creacion">
+                                <br />
+
+                                <button type="button" id="crearpro" class="btn btn-success">Crear Tabla</button>
+                                <button type="button" id="insertarpro" class="btn btn-success">Insertar
+                                    registro</button>
+                                <button type="button" id="modificarpro" class="btn btn-danger">Modifica
+                                    Registro</button>
+                                <button type="button" id="listarpro" class="btn btn-success">Mostrar/actualizar</button>
+                                <button type="button" id="borrarTodopro" class="btn btn-danger">Eliminar Todo</button>
+                            </fieldset>
+                        </form>
+                        <hr>
+                        <div class="tablas">
+                            <div class="titletabla">
+                                <h3>Lista de programas</h3>
+                                <input type="text" id="buscar-pal" onkeyup="autocompletado()" style="border: solid 2px" placeholder="Buscar...">
+                            </div>
+                            <table class="table table-border table-hover" id="listaprograma" style="width:715px">
+                            </table>
+                        </div>
+                    </div>
 
 
- </div>
- </section>
-</section>
-</main>
-  <!-- Pie de pagina -->
-  <footer>
-    <article class="footer_universidad">
-        <div class="article_footer">
-            <ul>
-                <li class="title_footer">Empresa</li>
-                <li><a href="http://www.tsgroup.com.co/wps/portal/inicio">Nosotros</a></li>
-                <li><a href="http://www.tsgroup.com.co/wps/portal/inicio">Contacto</a></li>
-            </ul>
-        </div>
-        <div class="article_footer">
-            <ul>
-                <li class="title_footer">Comunidad</li>
-                <li><a href="http://www.tsgroup.com.co/wps/portal/inicio" target="blank">Instagram</a></li>
-                <li><a href="http://www.tsgroup.com.co/wps/portal/inicio" target="blank">Facebook</a></li>
-                <li><a href="http://www.tsgroup.com.co/wps/portal/inicio" target="blank">Linkedin</a></li>
-            </ul>
-        </div>
-    </article>
-    <spam class="footer_universidad">TSGroup 2022</spam>
-</footer>
+                </div>
+            </section>
+        </section>
+    </main>
+    <!-- Pie de pagina -->
+    <footer>
+        <article class="footer_universidad">
+            <div class="article_footer">
+                <ul>
+                    <li class="title_footer">Empresa</li>
+                    <li><a href="http://www.tsgroup.com.co/wps/portal/inicio">Nosotros</a></li>
+                    <li><a href="http://www.tsgroup.com.co/wps/portal/inicio">Contacto</a></li>
+                </ul>
+            </div>
+            <div class="article_footer">
+                <ul>
+                    <li class="title_footer">Comunidad</li>
+                    <li><a href="http://www.tsgroup.com.co/wps/portal/inicio" target="blank">Instagram</a></li>
+                    <li><a href="http://www.tsgroup.com.co/wps/portal/inicio" target="blank">Facebook</a></li>
+                    <li><a href="http://www.tsgroup.com.co/wps/portal/inicio" target="blank">Linkedin</a></li>
+                </ul>
+            </div>
+        </article>
+        <spam class="footer_universidad">TSGroup 2022</spam>
+    </footer>
 </body>
+
 </html>
